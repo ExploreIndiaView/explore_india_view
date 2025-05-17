@@ -1,0 +1,32 @@
+/* Marquee container */
+.marquee {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #f0f8ff; /* Light blue background for better contrast */
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+  
+  /* Marquee text */
+  .marquee-text {
+    display: inline-block;
+    animation: marquee 50s linear infinite; /* Faster animation with 20s duration */
+    font-size: 1.25rem; /* Larger font size for better readability */
+    font-family: "Georgia", serif; /* Elegant serif font */
+    color: #1e3a8a; /* Attractive dark blue color */
+    font-weight: bold; /* Bold text for emphasis */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Keyframes for marquee animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(10%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End at the left */
+    }
+  }
