@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   title: "Explore India View",
   description: "A Online Platform that helps you to Explore India",
   icons: {
-    icon: ['/favicon.ico?v=4'],
-    apple: ['/apple-touch-icon.png?v=4'],
+    icon: ['/images/favicon.ico?v=4'],
+    apple: ['/images/apple-touch-icon.png?v=4'],
     shortcut: ['/apple-touch-icon.png']
   }
 };
