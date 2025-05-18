@@ -269,7 +269,7 @@ const ChatBotPopover = ({ open }: { open: boolean }) => {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {isOpen ? (
-        <div className="w-80 md:w-96 bg-white rounded-lg shadow-xl overflow-hidden flex flex-col">
+        <div className="w-72 md:w-96 bg-white rounded-lg shadow-xl overflow-hidden flex flex-col">
           <div className="bg-orange-500 text-white p-3 flex justify-between items-center">
             <h3 className="font-bold">Explore India View Assistant</h3>
             {/* <button
