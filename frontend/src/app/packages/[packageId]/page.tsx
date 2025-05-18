@@ -34,11 +34,11 @@ function PackageDetail() {
               src={Package.image}
               alt={Package.name}
               layout="responsive"
-              width={150}
-              height={120}
+              width={1500}
+              height={1200}
               className="w-full h-[500px] object-cover rounded-lg"
             />
-            <h1 className="text-3xl font-bold absolute top-3/5 md:top-4/5 ml-3 text-white  p-2 rounded-lg">
+            <h1 className="text-xl md:text-2xl font-bold absolute top-3/5 md:top-4/5 ml-3 text-white  p-2 rounded-lg">
               {Package.name}
             </h1>
           </div>
