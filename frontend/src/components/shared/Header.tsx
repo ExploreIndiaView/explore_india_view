@@ -2,6 +2,7 @@
 import React from "react";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -170,52 +171,72 @@ function Header() {
                         <span>₹{user.CashbackAmount}</span>
                       </DropdownMenuLabel>
                       <DropdownMenuSeparator />
-                      <DropdownMenuItem className="font-bold text-lg">
-                        <Link href={"/bookings"}>Bookings</Link>
-                      </DropdownMenuItem>
-                      {isAdmin && (
+                      <SheetClose asChild>
                         <DropdownMenuItem className="font-bold text-lg">
-                          <Link href={"/admin"}>Admin</Link>
+                          <Link href={"/bookings"}>Bookings</Link>
                         </DropdownMenuItem>
+                      </SheetClose>
+                      {isAdmin && (
+                        <SheetClose asChild>
+                          <DropdownMenuItem className="font-bold text-lg">
+                            <Link href={"/admin"}>Admin</Link>
+                          </DropdownMenuItem>
+                        </SheetClose>
                       )}
-                      <DropdownMenuItem
-                        onClick={logout}
-                        className="text-red-600 font-bold text-lg flex items-center gap-2"
-                      >
-                        Logout <DoorOpen className="size-4" color="red" />
-                      </DropdownMenuItem>
+                      <SheetClose asChild>
+                        <DropdownMenuItem
+                          onClick={logout}
+                          className="text-red-600 font-bold text-lg flex items-center gap-2"
+                        >
+                          Logout <DoorOpen className="size-4" color="red" />
+                        </DropdownMenuItem>
+                      </SheetClose>
                     </DropdownMenuContent>
                   </DropdownMenu>
                 )}
-                <Link href={"/"} className="text-xl font-semibold">
-                  Home
-                </Link>
-                <Link href={"/about"} className="text-xl font-semibold">
-                  About
-                </Link>
-                <Link href={"/#blogs"} className="text-xl font-semibold ">
-                  Blogs
-                </Link>
-                <Link href={"/package"} className="text-xl font-semibold ">
-                  Package
-                </Link>
-                <Link href={"/hotels"} className="text-xl font-semibold ">
-                  Hotels
-                </Link>
+                <SheetClose asChild>
+                  <Link href={"/"} className="text-xl font-semibold">
+                    Home
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link href={"/about"} className="text-xl font-semibold">
+                    About
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link href={"/#blogs"} className="text-xl font-semibold ">
+                    Blogs
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link href={"/package"} className="text-xl font-semibold ">
+                    Package
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link href={"/hotels"} className="text-xl font-semibold ">
+                    Hotels
+                  </Link>
+                </SheetClose>
                 {!user && !token && (
                   <>
-                    <Link
-                      href={"/login"}
-                      className="text-xl font-semibold cursor-pointer underline underline-offset-1 text-blue-500"
-                    >
-                      Login
-                    </Link>
-                    <Link
-                      href={"/signup"}
-                      className="text-xl font-semibold cursor-pointer underline underline-offset-2 text-blue-500"
-                    >
-                      Sign-Up
-                    </Link>
+                    <SheetClose asChild>
+                      <Link
+                        href={"/login"}
+                        className="text-xl font-semibold cursor-pointer underline underline-offset-1 text-blue-500"
+                      >
+                        Login
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link
+                        href={"/signup"}
+                        className="text-xl font-semibold cursor-pointer underline underline-offset-2 text-blue-500"
+                      >
+                        Sign-Up
+                      </Link>
+                    </SheetClose>
                   </>
                 )}
               </div>
