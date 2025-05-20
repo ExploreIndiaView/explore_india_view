@@ -169,7 +169,6 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
       if (response.status === 400) throw new Error(response.data.message);
       set({ isAdmin: true });
     } catch (error: any) {
-      set({ error: "Error Checking-Admin" });
     }
   },
   logout: () => {
