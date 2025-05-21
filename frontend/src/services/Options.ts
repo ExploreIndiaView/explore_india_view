@@ -1317,22 +1317,22 @@ export const OTHERSERVICES = [
   {
     name: "Flight Service",
     image: "/images/airline1.jpg",
-    path: "https://linksredirect.com/?cid=230828&source=linkkit&url=https%3A%2F%2Fwww.airindia.com%2Fen-in%2Fbook-flights",
-    PoweredBy:"Air India",
+    path: "https://linksredirect.com/?cid=230828&source=linkkit&url=https%3A%2F%2Fwww.happyeasygo.com%2Fflight%2F",
+    PoweredBy: "HappyEasyGo",
   },
   {
     name: "Railway Service",
     image: "/images/train1.jpg",
     path: "https://linksredirect.com/?cid=230828&source=linkkit&url=https%3A%2F%2Fwww.railyatri.in%2F",
-    PoweredBy:"Rail Yatri",
+    PoweredBy: "Rail Yatri",
   },
   {
     name: "Hotel Service",
     image: "/images/hotel-1.jpg",
     path: "https://linksredirect.com/?cid=230828&source=linkkit&url=https%3A%2F%2Fwww.makemytrip.com%2Fhotels",
-    PoweredBy:"Make My Trip",
+    PoweredBy: "Make My Trip",
   },
-]
+];
 
 export const RAILWAYIMAGES = [
   {
