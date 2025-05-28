@@ -1,22 +1,22 @@
 "use client";
+import AddCashbackDialog from "@/components/shared/AddCashbackDialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { API_URL } from "@/services/API";
+import { BOOKINGTYPE, QUERIESTYPE } from "@/services/types";
 import { useAuthStore } from "@/store/auth.store";
+import axios from "axios";
 import { BookImage, MessageCircleQuestionIcon } from "lucide-react";
 import Image from "next/image";
-import BookingTable from "./_components/BookingTable";
-import QueriesTable from "./_components/QueriesTable";
 import { useEffect, useState } from "react";
-import { BOOKINGTYPE, DETAILTYPES, QUERIESTYPE } from "@/services/types";
-import axios from "axios";
-import { API_URL } from "@/services/API";
+import BookingTable from "./_components/BookingTable";
 import Details from "./_components/Details";
+import QueriesTable from "./_components/QueriesTable";
 
 function AdminPage() {
   const { isAdmin, token } = useAuthStore();
   const [Queries, setQueries] = useState<QUERIESTYPE[]>([]);
   const [pageNumber, setpageNumber] = useState<number>(1);
   const [queriesPageNumber, setqueriesPageNumber] = useState(1);
-  const [details, setDetails] = useState<DETAILTYPES | null>(null);
   const [loading, setloading] = useState(false);
   const [bookings, setbookings] = useState<BOOKINGTYPE[]>([]);
 
@@ -85,6 +85,7 @@ function AdminPage() {
   return (
     <div className="px-3 mx-auto flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
       <Details token={token || ""} />
+      <AddCashbackDialog token={token || ""} />
       <Tabs defaultValue="Bookings" className="w-full mt-5">
         <TabsList className="mx-auto">
           <TabsTrigger value={"Bookings"}>
