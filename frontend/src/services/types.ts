@@ -24,6 +24,10 @@ export type User = {
   mobile: string;
   isVerified: boolean;
   CashbackAmount: number;
+  CashbackDetail: {
+    amount: number;
+    date: Date;
+  }[];
 };
 
 export type UserInput = {
