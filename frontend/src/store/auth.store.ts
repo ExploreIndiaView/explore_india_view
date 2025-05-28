@@ -47,6 +47,20 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
         mobile: userInput.isoCode + userInput.mobile,
       });
       if (response.status === 400) throw new Error(response.data.message);
+      // check for admin also
+      const responseAdmin = await axios.get(
+        `${API_URL}/api/v1/auth/check-admin`,
+        {
+          headers: {
+            Authorization: `Bearer ${response.data.token}`,
+          },
+        }
+      )
+      if (responseAdmin.status === 400)
+        throw new Error(responseAdmin.data.message);
+      if (responseAdmin) {
+        set({ isAdmin: true });
+      }
       set({
         user: response.data.user,
         token: response.data.token,
@@ -73,6 +87,20 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
         mobile: userInput.isoCode + userInput.mobile,
       });
       if (response.status === 400) throw new Error(response.data.message);
+      // check for admin also
+      const responseAdmin = await axios.get(
+        `${API_URL}/api/v1/auth/check-admin`,
+        {
+          headers: {
+            Authorization: `Bearer ${response.data.token}`,
+          },
+        }
+      )
+      if (responseAdmin.status === 400)
+        throw new Error(responseAdmin.data.message);
+      if (responseAdmin) {
+        set({ isAdmin: true });
+      }
       set({
         isAuthenticated: true,
         user: response.data.user,
@@ -144,12 +172,31 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
         },
       });
       if (response.status === 400) throw new Error(response.data.message);
-      set({
-        isAuthenticated: true,
-        user: response.data.user,
-        token: token,
-      });
-      response.status === 200 && get().checkAdmin();
+      // check for admin here only if user is authenticated
+      const responseAdmin = await axios.get(
+        `${API_URL}/api/v1/auth/check-admin`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      if (responseAdmin.status === 400)
+        throw new Error(responseAdmin.data.message);
+      if (responseAdmin) {
+        set({
+          isAdmin: true,
+          isAuthenticated: true,
+          user: response.data.user,
+          token: token,
+        });
+      } else {
+        set({
+          isAuthenticated: true,
+          user: response.data.user,
+          token: token,
+        });
+      }
     } catch (error: any) {
       console.log(error);
     } finally {
@@ -169,6 +216,7 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
       if (response.status === 400) throw new Error(response.data.message);
       set({ isAdmin: true });
     } catch (error: any) {
+      set({ error: "Error Checking-Admin" });
     }
   },
   logout: () => {
