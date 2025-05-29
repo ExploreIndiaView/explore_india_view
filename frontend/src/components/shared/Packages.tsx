@@ -4,8 +4,14 @@ import { Button } from "../ui/button";
 import PlaceCard from "./PlaceCard";
 import { useRouter } from "next/navigation";
 import CreateOwnPackageModal from "./CreateOwnPackageModal";
+import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 function Packages() {
+  const packagePart1 = PACKAGES.slice(0, 6);
+  const packagePart2 = PACKAGES.slice(5, 11);
+  // If you want to show more packages, you can adjust the slicing accordingly
+  
   const router = useRouter();
   return (
     <div className="md:px-16">
@@ -15,11 +21,52 @@ function Packages() {
             Packages
           </h1>
             <CreateOwnPackageModal title="Create Your Own Package" />
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-            {PACKAGES.map(
-              (pack, idx) => idx < 6 && <PlaceCard key={idx} pack={pack} />
-            )}
-          </div>
+          <Carousel
+            plugins={[
+              Autoplay({
+                delay: 1500,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="p-7">
+              {packagePart1.map((_, index) => (
+                <CarouselItem
+                  key={index}
+                  className="pl-1 md:basis-1/2 lg:basis-1/3"
+                >
+                  <PlaceCard
+                    pack={packagePart1[index]}
+                    key={index}
+                    lineclamp={true}
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
+          <Carousel
+            plugins={[
+              Autoplay({
+                delay: 1500,
+              }),
+            ]}
+            className="w-full"
+          >
+            <CarouselContent className="p-7">
+              {packagePart2.map((_, index) => (
+                <CarouselItem
+                  key={index}
+                  className="pl-1 md:basis-1/2 lg:basis-1/3"
+                >
+                  <PlaceCard
+                    pack={packagePart2[index]}
+                    key={index}
+                    lineclamp={true}
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
           <div className="flex justify-center">
             <Button
               onClick={() => {
