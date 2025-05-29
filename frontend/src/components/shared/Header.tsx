@@ -87,19 +87,22 @@ function Header() {
                 <span>My Wallet</span> <span>₹{user.CashbackAmount}</span>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem className="font-bold text-lg">
+              <DropdownMenuItem asChild className="font-bold text-lg">
                 <Link href={"/bookings"}>Bookings</Link>
               </DropdownMenuItem>
               {isAdmin && (
-                <DropdownMenuItem className="font-bold text-lg">
+                <DropdownMenuItem asChild className="font-bold text-lg">
                   <Link href={"/admin"}>Admin</Link>
                 </DropdownMenuItem>
               )}
               <DropdownMenuItem
+                asChild
                 onClick={logout}
                 className="text-red-600 font-bold text-lg flex items-center gap-2"
               >
-                Logout <DoorOpen className="size-4" color="red" />
+                <div className="flex items-center gap-2">
+                  Logout <DoorOpen className="size-4" color="red" />
+                </div>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -172,23 +175,29 @@ function Header() {
                       </DropdownMenuLabel>
                       <DropdownMenuSeparator />
                       <SheetClose asChild>
-                        <DropdownMenuItem className="font-bold text-lg">
+                        <DropdownMenuItem asChild className="font-bold text-lg">
                           <Link href={"/bookings"}>Bookings</Link>
                         </DropdownMenuItem>
                       </SheetClose>
                       {isAdmin && (
                         <SheetClose asChild>
-                          <DropdownMenuItem className="font-bold text-lg">
+                          <DropdownMenuItem
+                            asChild
+                            className="font-bold text-lg"
+                          >
                             <Link href={"/admin"}>Admin</Link>
                           </DropdownMenuItem>
                         </SheetClose>
                       )}
                       <SheetClose asChild>
                         <DropdownMenuItem
+                          asChild
                           onClick={logout}
                           className="text-red-600 font-bold text-lg flex items-center gap-2"
                         >
-                          Logout <DoorOpen className="size-4" color="red" />
+                          <div className="flex items-center gap-2">
+                            Logout <DoorOpen className="size-4" color="red" />
+                          </div>
                         </DropdownMenuItem>
                       </SheetClose>
                     </DropdownMenuContent>
