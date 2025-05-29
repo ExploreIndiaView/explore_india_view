@@ -107,7 +107,13 @@ function InquirySection({ expand }: { expand: boolean }) {
       </Button>
     </div>
   ) : (
-    <Button onClick={() => router.push("/login")}>Sign In</Button>
+    <Button
+      className="font-bold bg-gradient-to-r from-emerald-500 to-lime-500 bg-clip-text text-transparent mx-auto w-full cursor-pointer"
+      variant="secondary"
+      onClick={() => router.push("/login")}
+    >
+      Login to Raise your Query
+    </Button>
   );
 }
 
