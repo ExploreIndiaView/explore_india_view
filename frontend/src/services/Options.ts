@@ -234,8 +234,8 @@ export const PACKAGES = [
     __id: "2",
     name: "Incredible Tour of Rajasthan",
     image: getRandomIndexedImage(),
-    days: 10,
-    nights: 9,
+    days: 13,
+    nights: 12,
     Overview: [
       `Explore the rich cultural heritage of Rajasthan with our exclusive Rajasthan Heritage Tour Package. Discover the majestic forts, royal palaces, and vibrant traditions of Jaipur, Jodhpur, Udaipur, and more. This tour is perfect for history enthusiasts and culture lovers looking to experience the true essence of Rajasthan.`,
       `Visit iconic landmarks like the Amber Fort, Mehrangarh Fort, and City Palace. Enjoy camel safaris in Jaisalmer, boat rides in Udaipur, and the colorful bazaars of Jaipur. Immerse yourself in the royal lifestyle and create unforgettable memories.`,
