@@ -4,9 +4,11 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { Button } from "../ui/button";
+import { useAuthStore } from "@/store/auth.store";
 
 function Services() {
   const router = useRouter();
+  const {user} = useAuthStore();
   return (
     <div className="md:px-16">
       {TOPSERVICES.length > 0 && (
@@ -52,7 +54,7 @@ function Services() {
                 <div className="w-full flex items-center justify-center my-4">
                   <Button
                     onClick={() => {
-                      window.open(service.path, "_blank");
+                      window.open(`${service.path}&subid=${user?.mobile}`, "_blank");
                     }}
                     className="bg-gray-600 text-white cursor-pointer"
                   >
