@@ -96,7 +96,7 @@ function Footer() {
           <h1 className="text-xl font-bold font-serif">Contact Information</h1>
           <div className="text-sm font-mono mt-2">
             <Link
-              href={"/"}
+              href="tel:+919588041628"
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
             >
               <PhoneCall
@@ -106,7 +106,7 @@ function Footer() {
               +91 9588041628
             </Link>
             <Link
-              href={"/"}
+              href="tel:+918209598333"
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
             >
               <PhoneCall
@@ -116,7 +116,7 @@ function Footer() {
               +91 8209598333
             </Link>
             <Link
-              href={"/"}
+              href="tel:+918426090454"
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
             >
               <PhoneCall
@@ -126,14 +126,14 @@ function Footer() {
               +91 8426090454
             </Link>
             <Link
-              href={"/"}
+              href="mailto:exploreindiaview@gmail.com"
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
             >
               <Mail size={15} className="fill-purple-700 text-white" />
               exploreindiaview@gmail.com
             </Link>
             <Link
-              href={"/"}
+              href="/"
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
             >
               <MapPlus size={15} className="fill-purple-700 text-purple-600" />
@@ -171,7 +171,9 @@ function Footer() {
               Youtube
             </Link>
             <Link
-              href={"/https://www.instagram.com/explore_india_view/?next=%2F&hl=en"}
+              href={
+                "/https://www.instagram.com/explore_india_view/?next=%2F&hl=en"
+              }
               className="flex items-center gap-2 hover:gap-5 transition-all duration-300"
               target="_blank"
             >
