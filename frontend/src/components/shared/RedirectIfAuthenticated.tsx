@@ -1,8 +1,7 @@
 "use client";
 import { useAuthStore } from "@/store/auth.store";
-import React, { ReactNode, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { Loader } from "lucide-react";
+import { ReactNode, useEffect } from "react";
 function RedirectIfAuthenticated({ children }: { children: ReactNode }) {
   const { checkAuth, user, token, checkingAuth } = useAuthStore();
   useEffect(() => {
@@ -13,7 +12,6 @@ function RedirectIfAuthenticated({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const isLoginOrSignupPath = pathname === "/login" || pathname === "/signup";
-  const isBooking = pathname === "/bookings";
   useEffect(() => {
     if (user && token && user.isVerified && isLoginOrSignupPath) {
       router.push("/");
@@ -21,7 +19,7 @@ function RedirectIfAuthenticated({ children }: { children: ReactNode }) {
   }, [user, isLoginOrSignupPath, router]);
   if (checkingAuth) {
     return null;
-  }
+}
   return <>{children}</>;
 }
 
