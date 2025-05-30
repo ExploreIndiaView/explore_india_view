@@ -55,11 +55,11 @@ export default function OffersCarousel() {
             delay: 3000,
           }),
         ]}
-        className="w-full max-w-xl"
+        className="w-full"
       >
         <CarouselContent>
           {offers.map((offer) => (
-            <CarouselItem key={offer.id} className="flex justify-center">
+            <CarouselItem key={offer.id} className="md:basis-1/2 lg:basis-1/3">
               <OfferCard offer={offer} />
             </CarouselItem>
           ))}
