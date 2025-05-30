@@ -25,8 +25,9 @@ function SignIn() {
     isoCode: "",
     mobile: "",
     password: "",
+    answer: "",
+    question:""
   });
-  // setup for otp verification
   const [loading, setloading] = useState<boolean>(false);
   const countries = getCountries();
   const { signup, error } = useAuthStore();
@@ -89,8 +90,8 @@ function SignIn() {
               </Label>
               <div className="flex items-center gap-1">
                 <Select onValueChange={(value) => handleCountryChange(value)}>
-                  <SelectTrigger className="w-[150px]">
-                    <SelectValue placeholder="Select ISO code" />
+                  <SelectTrigger className="w-[120px]">
+                    <SelectValue placeholder="Select Country" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
@@ -131,6 +132,41 @@ function SignIn() {
                   setinput({ ...input, password: e.target.value })
                 }
                 placeholder="Enter Password"
+              />
+            </div>
+            {/* Security Question select dialog */}
+            <div className="mb-4 flex flex-col gap-1">
+              <Label className="text-sm ml-1 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                Security Question
+              </Label>
+              <Select onValueChange={(value) => setinput({ ...input, question: value })}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select a security question" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectGroup>
+                    <SelectItem value="pet">What is your pet's name?</SelectItem>
+                    <SelectItem value="school">
+                      What was the name of your first school?
+                    </SelectItem>
+                    <SelectItem value="city">
+                      In which city were you born?
+                    </SelectItem>
+                  </SelectGroup>
+                </SelectContent>
+              </Select>
+            </div>
+            {/* Security Answer */}
+            <div className="mb-4 flex flex-col gap-1">
+              <Label className="text-sm ml-1 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                Security Answer
+              </Label>
+              <Input
+                type="text"
+                required
+                value={input.answer}
+                onChange={(e) => setinput({ ...input, answer: e.target.value })}
+                placeholder="Enter Security Answer"
               />
             </div>
             <Button
