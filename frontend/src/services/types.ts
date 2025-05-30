@@ -35,6 +35,8 @@ export type UserInput = {
   mobile: string;
   password: string;
   isoCode: string;
+  answer: string;
+  question: string;
 };
 
 export type LoginInput = {
@@ -42,6 +44,14 @@ export type LoginInput = {
   password: string;
   isoCode: string;
 };
+
+export type ResetInput = {
+  mobile: string;
+  password: string;
+  isoCode: string;
+  answer: string;
+  question: string;
+}
 
 export type HotelType = {
   __id: string;
