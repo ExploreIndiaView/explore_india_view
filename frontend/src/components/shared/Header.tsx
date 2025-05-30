@@ -23,7 +23,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 
 function Header() {
-  const { user, logout, token, isAdmin } = useAuthStore();
+  const { user, logout, isAdmin } = useAuthStore();
   return (
     <div className="flex justify-between items-center p-2 px-6 border-b-2 w-full mx-auto sticky top-0 z-20 bg-gray-100">
       <div className="contents">
@@ -55,7 +55,7 @@ function Header() {
         <Link href={"/hotels"} className="text-xl font-bold ">
           Hotels
         </Link>
-        {user && token ? (
+        {user ? (
           <DropdownMenu>
             <DropdownMenuTrigger className="cursor-pointer">
               <Avatar className="size-10">
@@ -149,7 +149,7 @@ function Header() {
                 Explore India View
               </SheetTitle>
               <div className="flex flex-col gap-5 mt-10 font-mono ">
-                {user && token && (
+                {user && (
                   <DropdownMenu>
                     <DropdownMenuTrigger className="cursor-pointer">
                       <div className="flex items-center gap-2 px-3 py-2">
@@ -228,7 +228,7 @@ function Header() {
                     Hotels
                   </Link>
                 </SheetClose>
-                {!user && !token && (
+                {!user && (
                   <>
                     <SheetClose asChild>
                       <Link
