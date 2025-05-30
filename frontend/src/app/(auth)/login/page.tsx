@@ -116,7 +116,14 @@ function Login() {
             {loading ? <Loader className="animate-spin size-4" /> : "Login"}
           </Button>
         </form>
-        <div className="mt-4 text-center">
+        <div className=" text-end">
+          <p className="text-sm text-gray-600">
+            <Link href="/reset-password" className="text-blue-500 hover:underline">
+              Forget Password
+            </Link>
+          </p>
+        </div>
+        <div className="mt-4 text-center border-t-2">
           <p className="text-sm text-gray-600">
             Don't have an account?{" "}
             <Link href="/signup" className="text-blue-500 hover:underline">
