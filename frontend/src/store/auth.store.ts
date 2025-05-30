@@ -62,7 +62,6 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
             },
           }
         );
-        console.log(responseAdmin);
         if (responseAdmin.data.isAdmin) {
           set({
             isAdmin: true,
