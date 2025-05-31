@@ -733,7 +733,7 @@ export const PACKAGES = [
       },
     ],
   },
-  {
+   {
     __id: "3",
     name: "Colorful Rajasthan Tour",
     image: getRandomIndexedImage(),
@@ -760,44 +760,44 @@ export const PACKAGES = [
       {
         name: " Jaipur",
         description: `
-        <strong>Moti Dungri Temple (08:00am - 08:30am)</strong>: Peaceful start to the day with blessing at this iconic temple.<br/><br/>
-        <strong>Hawa Mahal (08:45am - 09:15am)</strong>: Enjoy the breeze and architecture of the Palace of Winds.<br/><br/>
-        <strong>Jantar Mantar (09:20am - 10:00am)</strong>: Fascinating artromonical observatory with impressive instruments.<br/><br/>
-        <strong>City Palace (10:15am - 11:00am)</strong>: Explore the royal courtyards museums galleries and traditional architecture of Jaipur.<br/><br/>
-        <strong>Travel to Amber Fort (11:00am - 11:45am)</strong>: Stop at Jal Mahal for a panoramic view and quick lakeside photo session.<br/><br/>
-        <strong>Amber Fort (01:00pm - 02:30pm)</strong>: Discover Seesh mahal, Diwan-e-Aam, and Diwan-e-Khas with a guided tour of the fort's history and architecture.<br/><br/>
-        <strong>Nahargarh Fort (02:30pm - 04:00pm)</strong>: End of the day with  stunning view of Jaipur, Enjoy snacks or tea at padao Cafe inside fort. Ideal spot to relax and take in the panoramic views of the Pink City.<br/><br/>
+        <strong>Moti Dungri Temple & Birla Mandir </strong>: Peaceful start to the day with blessing at this iconic temple. 
+        <strong>Hawa Mahal  </strong>: Enjoy the breeze and architecture of the Palace of Winds. 
+        <strong>Jantar Mantar  </strong>: Fascinating artromonical observatory with impressive instruments. 
+        <strong>City Palace  </strong>: Explore the royal courtyards museums galleries and traditional architecture of Jaipur. 
+        <strong>Travel to Amber Fort  </strong>: Stop at Jal Mahal for a panoramic view and quick lakeside photo session. 
+        <strong>Amber Fort  </strong>: Discover Seesh mahal, Diwan-e-Aam, and Diwan-e-Khas with a guided tour of the fort's history and architecture. 
+        <strong>Nahargarh Fort  </strong>: End of the day with  stunning view of Jaipur, Enjoy snacks or tea at padao Cafe inside fort. Ideal spot to relax and take in the panoramic views of the Pink City.<br/><br/>
         `,
       },
       {
         name: " Mandawa",
         description: `
         <strong>06:00am</strong>: Depart from Jaipur to Mandawa by private vehicle (3 hours).<br/><br/>
-        <strong>11:00am</strong>: Arrive in Mandawa and check into your hotel.<br/><br/>
-        <strong>Visit Mandawa Fort (11:30am - 12:00pm)</strong>: Explore the 18th century fort showcasing Rajput architecturea and Intricate handicrafts.<br/><br/>
-        <strong>Explore Hanuman Prasad Gaenka Haweli(12:30pm - 01:00pm)</strong>: Admire the elaborate frescaes depicting mythoogical themes and daily life scenes.<br/><br/>
-        <strong>Visit Marmuria Haveli (01:00pm - 01:30pm)</strong>: Notable for its paintings of leaders like Nehru and scenes of Trains and cars, reflecting a blend of traditional and modern themes.<br/><br/>
-        <strong>Lunch at Castle Mandawa (01:30pm - 02:30pm)</strong>: <br/><br/>
-        Cuisine: Traditional Rajasthani Buffet.<br/><br/>
+        <strong> </strong>: Arrive in Mandawa and check into your hotel. 
+        <strong>Visit Mandawa Fort  </strong>: Explore the 18th century fort showcasing Rajput architecturea and Intricate handicrafts. 
+        <strong>Explore Hanuman Prasad Gaenka Haweli </strong>: Admire the elaborate frescaes depicting mythoogical themes and daily life scenes. 
+        <strong>Visit Marmuria Haveli </strong>: Notable for its paintings of leaders like Nehru and scenes of Trains and cars, reflecting a blend of traditional and modern themes. 
+        <strong>Lunch at Castle Mandawa  </strong>:  
+        Cuisine: Traditional Rajasthani Buffet. 
         Cost: INR 1000 per person for non-guests.<br/><br/>
         Enjoy a meal in a heritage setting with views of the fort.<br/><br/>
-        <strong>Visit Jhunjhunwala Haveli (02:30pm - 03:00pm)</strong>: Famous for its golden adornments and intricate carvings, showcasing the opulence of the era.<br/><br/>
-        <strong>Explore Gulab Rai Ladia Haveli (03:00pm - 04:00pm)</strong>: Known for its unique and architectural style, featuring a blend of Rajput and Mughal influences.<br/><br/>
-        <strong>Stall at Mandawa Bazaar (04:00pm - 05:00pm)</strong>: Shop for local handicrafts, textiles, and souvenirs.<br/><br/>
-        Experience the vibrant atmosphere of the local market.<br/><br/>
-        <strong>Departure for Bikaner (05:00pm)</strong>: Depart from Mandawa and arrive in Bikaner by private vehicle.<br/><br/>
+        <strong>Visit Jhunjhunwala Haveli  </strong>: Famous for its golden adornments and intricate carvings, showcasing the opulence of the era. 
+        <strong>Explore Gulab Rai Ladia Haveli  </strong>: Known for its unique and architectural style, featuring a blend of Rajput and Mughal influences. 
+        <strong>Stall at Mandawa Bazaar  </strong>: Shop for local handicrafts, textiles, and souvenirs. 
+        Experience the vibrant atmosphere of the local market. 
+        <strong>Departure for Bikaner  </strong>: Depart from Mandawa and arrive in Bikaner by private vehicle.<br/><br/>
         `,
       },
       {
         name: "Bikaner",
         description: `
-        <strong>Start your day at rampuria Havelis (08:00am)</strong>: Starts through the lanes of those 15th century havelis, which are adorned with intricate frescoes and carvings.<br/><br/>
-        <strong>Visit Junagarh Fort (09:00am - 11:00am)</strong>: Explore the 16th century fort showcasing Rajput architecture and Intricate handicrafts.<br/><br/>
-        <strong>Explore Ganga Golden Jubilere Museum (11:00am - 12:00pm)</strong>: Admire the exquisite collection of ancient sculptures, paintings, and sculptures, showcasing the opulence of the era.<br/><br/>
-        <strong>Bhandasar Jain Temple (12:00pm - 01:00pm)</strong>: Marble Carvings and intricate frescoes, showcasing the opulence of the era.<br/><br/>
-        <strong>Lunch at Laxmi Niwas Palace (01:00pm - 02:00pm)</strong>: Laxmi Niwas Palace, a heritage hotel, offers a royal dining experience with Rajasthani cuisine.<br/><br/>
-        <strong>Visit Lalgarh Palace and Ladui Museum (02:30pm - 03:30pm)</strong>: Edwardian archit.ecture and a museum showcasing the history of Bikaner.<br/><br/>
-        <strong>National Research Centre on Camel (03:30pm - 05:00pm)</strong>: Camel Breeds, Breeding, and Research Centre.<br/><br/>
+        <strong>Start your day at rampuria Havelis  </strong>: Starts through the lanes of those 15th century havelis, which are adorned with intricate frescoes and carvings. 
+        <strong>Visit Junagarh Fort  </strong>: Explore the 16th century fort showcasing Rajput architecture and Intricate handicrafts. 
+        <strong>Explore Ganga Golden Jubilere Museum  </strong>: Admire the exquisite collection of ancient sculptures, paintings, and sculptures, showcasing the opulence of the era. 
+        <strong>Bhandasar Jain Temple  </strong>: Marble Carvings and intricate frescoes, showcasing the opulence of the era. 
+        <strong>Lunch at Laxmi Niwas Palace  </strong>: Laxmi Niwas Palace, a heritage hotel, offers a royal dining experience with Rajasthani cuisine. 
+        <strong>Visit Lalgarh Palace and Ladui Museum  </strong>: Edwardian archit.ecture and a museum showcasing the history of Bikaner. 
+        <strong>National Research Centre on Camel  </strong>: Camel Breeds, Breeding, and Research Centre. 
         <strong>End of tour and Departure</strong>: Rajasthani Cultural Dinner, Folk dances and music (optional).<br/><br/>
         `,
       },
@@ -806,36 +806,36 @@ export const PACKAGES = [
         description: `
     <strong>Day 1:</strong><br/><br/>
     <strong>Morning:</strong> Arrival in Jaisalmer and enjoy a local Rajasthani meal.<br/><br/>
-    <strong>2:20 PM - 4:00 PM:</strong> Visit Jaisalmer Fort (Sonar Quila), exploring the fort complex, temples, and viewpoints. Entrance fees are ₹200 for Indians and ₹250 for foreigners.<br/><br/>
-    <strong>4:00 PM - 5:00 PM:</strong> Explore Maharaja's Palace inside the fort, a museum showcasing royal relics.<br/><br/>
-    <strong>5:00 PM - 5:30 PM:</strong> Visit Nathmal Ki Haveli and take a short walk to admire the intricate architecture.<br/><br/>
-    <strong>5:30 PM - 6:30 PM:</strong> Travel to Sam Sand Dunes (approximately 45 minutes drive from the city).<br/><br/>
-    <strong>6:30 PM - 7:30 PM:</strong> Experience a camel safari and sunset at the Sam Sand Dunes, including photo opportunities and traditional camel rides.<br/><br/>
-    <strong>7:30 PM - 9:30 PM:</strong> Enjoy a cultural evening at a desert camp, featuring Kalbeliya dance, folk music, and dinner (optional, but recommended). Overnight stay in the desert camp.<br><br/><br/>
+    <strong> </strong> Visit Jaisalmer Fort (Sonar Quila), exploring the fort complex, temples, and viewpoints. Entrance fees are ₹200 for Indians and ₹250 for foreigners. 
+    <strong> </strong> Explore Maharaja's Palace inside the fort, a museum showcasing royal relics. 
+    <strong> </strong> Visit Nathmal Ki Haveli and take a short walk to admire the intricate architecture. 
+    <strong> </strong> Travel to Sam Sand Dunes (approximately 45 minutes drive from the city). 
+    <strong> </strong> Experience a camel safari and sunset at the Sam Sand Dunes, including photo opportunities and traditional camel rides.<br/><br/>
+    <strong> </strong> Enjoy a cultural evening at a desert camp, featuring Kalbeliya dance, folk music, and dinner (optional, but recommended). Overnight stay in the desert camp. 
     
-    <strong>Day 2:</strong><br/><br/>
-    <strong>5:30 AM - 6:30 AM:</strong> Watch the sunrise over the dunes, ideal for photography and morning tea.<br/><br/>
+     
+    <strong> </strong> Watch the sunrise over the dunes, ideal for photography and morning tea. 
     <strong>Morning:</strong> Heritage walk and departure.<br/><br/>
-    <strong>6:30 AM - 7:30 AM:</strong> Returning from a desert camp to a hotel in the city for freshening up and breakfast.<br><br/>
-    <strong>Patwon ki Haveli (8:00 AM - 9:00 AM):</strong> A visit to this haveli known for its intricate carvings and mirror work.<br/><br/>
-    <strong>Salim Singh ki Haveli (9:00 AM - 10:00 AM):</strong> A haveli known for its peacock-shaped roof and 38 balconies.
+    <strong> </strong> Returning from a desert camp to a hotel in the city for freshening up and breakfast. 
+    <strong>Patwon ki Haveli  </strong> A visit to this haveli known for its intricate carvings and mirror work. 
+    <strong>Salim Singh ki Haveli  </strong> A haveli known for its peacock-shaped roof and 38 balconies.
 `,
       },
       {
         name: "Khuri",
         description: `
-    <strong>Day 1: Arrival and Khuri Exploration</strong><br/><br/>
-    <strong>2:00 PM:</strong> Depart from Jaisalmer, with a 1.5-hour drive to Khuri, covering approximately 50 km.<br/><br/>
-    <strong>4:00 PM:</strong> Arrive in Khuri village.<br/><br/>
-    <strong>4:15 PM - 5:15 PM:</strong> Explore the village, including traditional mud houses, local artisan crafts, and experiencing the warm hospitality of village life.<br/><br/>
-    <strong>5:00 PM - 7:00 PM:</strong> Enjoy a sunset camel safari at the Khuri Sand Dunes, with options for a jeep safari as well. The dunes are known for their golden sands and fewer crowds compared to Sam Sand Dunes.<br/><br/>
-    <strong>7:30 PM - 9:30 PM:</strong> Cultural evening at the desert camp, featuring Rajasthani music, dance, and a buffet dinner. Accommodation is in desert tents with attached bathrooms.<br/><br/>
+    <strong>  Arrival and Khuri Exploration</strong><br/><br/>
+    <strong> </strong> Depart from Jaisalmer, with a 1.5-hour drive to Khuri, covering approximately 50 km. 
+    <strong> </strong> Arrive in Khuri village. 
+    <strong> </strong> Explore the village, including traditional mud houses, local artisan crafts, and experiencing the warm hospitality of village life. 
+    <strong> </strong> Enjoy a sunset camel safari at the Khuri Sand Dunes, with options for a jeep safari as well. The dunes are known for their golden sands and fewer crowds compared to Sam Sand Dunes. 
+    <strong> </strong> Cultural evening at the desert camp, featuring Rajasthani music, dance, and a buffet dinner. Accommodation is in desert tents with attached bathrooms. 
     
-    <strong>Day 2: Sunrise and Departure</strong><br/><br/>
-    <strong>5:45 AM - 6:30 AM:</strong> Sunrise viewing over the dunes, followed by a morning camel ride or quiet chai on the dunes.<br/><br/>
-    <strong>7:00 AM:</strong> Breakfast at the camp.<br/><br/>
-    <strong>Morning (8:20 AM):</strong> Local sightseeing in Khuri (optional).<br/><br/>
-    Possible desert wildlife spotting, including desert foxes, peacocks, and chinkaras (local guide recommended).<br/><br/>
+    <strong>Day 2: Sunrise and Departure</strong> 
+    <strong> </strong> Sunrise viewing over the dunes, followed by a morning camel ride or quiet chai on the dunes. 
+    <strong> </strong> Breakfast at the camp. 
+    <strong>Morning  </strong> Local sightseeing in Khuri (optional). 
+    Possible desert wildlife spotting, including desert foxes, peacocks, and chinkaras (local guide recommended). 
     Optional visit to the Khuri Jain Temple, a serene temple in traditional style.
 `,
       },
@@ -843,130 +843,127 @@ export const PACKAGES = [
         name: "Jodhpur",
         description: `
     <strong>Departure for Jodhpur (9:30 AM):</strong><br/><br/>
-    Distance: 300 km.<br/><br/>
-    Travel time: Approximately 6 hours.<br/><br/>
-    Route: Khuri -> Pokaran -> Jodhpur.<br/><br/>
-    <strong>4:00 PM - 4:30 PM:</strong> Check-in and freshen up. Recommended areas to stay include the clock tower area, Ratanada, or near Umaid Bhawan.<br/><br/>
-    <strong>4:30 PM - 5:30 PM:</strong> Visit Toorji Ka Jhalra (stepwell), a popular social media spot, and explore local cafes.<br/><br/>
-    <strong>5:30 PM - 6:30 PM:</strong> Explore the clock tower and Sardar market, shop for spices, textiles, and handicrafts.<br/><br/>
-    <strong>7:00 PM - 9:00 PM:</strong> Rooftop dinner with fort view at one of the following locations:<br/><br/>
-    - Indique at the view of Mehrangarh.<br/><br/>
-    - Darikhana at RAAS Hotel.<br/><br/>
-    - Sky 22 Rooftop Restaurant.<br/><br/>
-    - On the Rocks near Circuit House lounge.<br/><br/>
+    Distance: 300 km. 
+    Travel time: Approximately 6 hours. 
+    Route: Khuri -> Pokaran -> Jodhpur. 
+    <strong> </strong> Check-in and freshen up. Recommended areas to stay include the clock tower area, Ratanada, or near Umaid Bhawan. 
+    <strong> </strong> Visit Toorji Ka Jhalra (stepwell), a popular social media spot, and explore local cafes. 
+    <strong> </strong> Explore the clock tower and Sardar market, shop for spices, textiles, and handicrafts. 
+    <strong> </strong> Rooftop dinner with fort view at one of the following locations: 
+    - Indique at the view of Mehrangarh. 
+    - Darikhana at RAAS Hotel. 
+    - Sky 22 Rooftop Restaurant. 
+    - On the Rocks near Circuit House lounge. 
 
-    <strong>Day 2:</strong><br/><br/>
-    <strong>8:00 AM - 1:00 PM:</strong> Visit Mandore Gardens, which include temples, cenotaphs, and lush gardens.<br/><br/>
-    <strong>9:30 AM - 11:30 AM:</strong> Explore Mehrangarh Fort, which includes a museum and panoramic views.<br/><br/>
-    <strong>11:15 AM - 12:15 PM:</strong> Jaswant Thada - A marble cenotaph known for its peaceful setting.<br/><br/>
-    <strong>12:20 PM - 1:30 PM:</strong> Lunch break.<br/><br/>
+     <strong> </strong> Visit Mandore Gardens, which include temples, cenotaphs, and lush gardens. 
+    <strong> </strong> Explore Mehrangarh Fort, which includes a museum and panoramic views. 
+    <strong> </strong> Jaswant Thada - A marble cenotaph known for its peaceful setting. 
+    <strong> </strong> Lunch break. 
 
-    <strong>Afternoon:</strong><br/><br/>
-    <strong>1:45 PM - 3:00 PM:</strong> Umaid Bhawan Palace Museum - A museum showcasing vintage cars and palace history.<br/><br/>
-    <strong>3:15 PM - 4:15 PM:</strong> Rao Jodha Desert Rock Park - Features nature trails, desert ecology, and a fort backdrop.<br/><br/>
+    <strong>Afternoon:</strong> 
+    <strong> </strong> Umaid Bhawan Palace Museum - A museum showcasing vintage cars and palace history. 
+    <strong> </strong> Rao Jodha Desert Rock Park - Features nature trails, desert ecology, and a fort backdrop. 
 
-    <strong>Late Afternoon/Evening:</strong><br/><br/>
-    <strong>4:30 PM - 6:00 PM:</strong> Leisure time for shopping. A visit to Sardar Market is suggested for last-minute souvenirs, spices, and textiles.<br/><br/>
-    <strong>6:00 PM - 7:00 PM:</strong> Sunset dinner.
+    <strong>Late Afternoon/Evening:</strong> 
+    <strong> </strong> Leisure time for shopping. A visit to Sardar Market is suggested for last-minute souvenirs, spices, and textiles. 
+    <strong> </strong> Sunset dinner.
 `,
       },
       {
         name: "Ranakpur",
         description: `Ranakpur is famous for the stunning white marble Jain Temple dedicated to Tirthankara Adinatha, set amidst green hills.`,
       },
+       {
+        name: "Kumbargarh",
+        description: `Kumbhalgarh is known for Kumbhalgarh Fort, with the second-longest wall in the world, and it is surrounded by scenic wildlife and hills.`,
+      },
       {
         name: "Udaipur",
         description: `
     <strong>Udaipur Itinerary</strong><br/><br/>
     
-    <strong>1. City Palace & Museum (9:30 AM – 5:30 PM):</strong><br/><br/>
-    Largest palace in Rajasthan, stunning views of Lake Pichola, museums, and royal courtyards.<br/><br/>
+    <strong> City Palace & Museum  </strong> 
+    Largest palace in Rajasthan, stunning views of Lake Pichola, museums, and royal courtyards. 
+    <strong>Boat Ride to Jag Mandir via Lake Pichola (from City Palace):</strong> 
+    Scenic lake views, visit Jag Mandir (island palace). 
     
-    <strong>2. Boat Ride to Jag Mandir via Lake Pichola (from City Palace):</strong><br/><br/>
-    Scenic lake views, visit Jag Mandir (island palace).<br/><br/>
+    <strong> Lunch Break </strong> 
+    Suggestion: Try Krishna Dal Bati Restro or Garden Hotel Restaurant (₹200–300/person). 
     
-    <strong>3. Lunch Break (1:00 PM – 2:00 PM):</strong><br/><br/>
-    Suggestion: Try Krishna Dal Bati Restro or Garden Hotel Restaurant (₹200–300/person).<br/><br/>
+    <strong> Saheliyon Ki Bari:</strong> 
+    Beautiful gardens, fountains, lotus pools, marble pavilions. 
     
-    <strong>4. Saheliyon Ki Bari:</strong><br/><br/>
-    Beautiful gardens, fountains, lotus pools, marble pavilions.<br/><br/>
+    <strong> Fateh Sagar Lake:</strong> 
+    Peaceful atmosphere, visit Nehru Park on the lake. 
     
-    <strong>5. Fateh Sagar Lake:</strong><br/><br/>
-    Peaceful atmosphere, visit Nehru Park on the lake.<br/><br/>
+    <strong> Vintage & Classic Car Museum:</strong> 
+    Royal vintage car collection of Maharajas. 
     
-    <strong>6. Vintage & Classic Car Museum:</strong><br/><br/>
-    Royal vintage car collection of Maharajas.<br/><br/>
-    
-    <strong>7. Bagore Ki Haveli Museum & Cultural Show:</strong><br/><br/>
+    <strong> Bagore Ki Haveli Museum & Cultural Show:</strong> 
     Rajasthani folk dances, puppetry, and local music in an authentic Haveli setting.
 `,
       },
-      {
-        name: "Kumbargarh",
-        description: `Kumbhalgarh is known for Kumbhalgarh Fort, with the second-longest wall in the world, and it is surrounded by scenic wildlife and hills.`,
-      },
+     
       {
         name: "Bundi",
         description: `
-    <strong>Arrival in Bundi: 6:30 PM</strong><br/><br/>
-    <strong>Accommodation:</strong> Check into your hotel.<br/><br/>
-    <strong>Evening Activity:</strong> Stroll through the local markets, enjoy a traditional Rajasthani dinner, and relax to prepare for the next day's sightseeing.<br/><br/>
+    <strong>Arrival in Bundi: 6:30 PM</strong><br/> 
+    <strong>Accommodation:</strong> Check into your hotel. 
+    <strong>Evening Activity:</strong> Stroll through the local markets, enjoy a traditional Rajasthani dinner, and relax to prepare for the next day's sightseeing. 
 
-    <strong>🏯 Day 2:</strong><br/><br/>
-    <strong>9:00 AM – 10:30 AM: Bundi Palace (Garh Palace)</strong><br/><br/>
-    Explore the Chitrashala (art gallery), Hathi Pol (elephant gate), and the Chahar Bagh (terraced garden).<br/><br/>
+     <strong>  Bundi Palace (Garh Palace)</strong> 
+    Explore the Chitrashala (art gallery), Hathi Pol (elephant gate), and the Chahar Bagh (terraced garden). 
 
-    <strong>10:30 AM – 12:00 PM: Taragarh Fort</strong><br/><br/>
-    Visit the ruins of the fort, including the Rani Mahal and the Bhim Burj, and enjoy panoramic views of Bundi.<br/><br/>
+    <strong>  Taragarh Fort</strong> 
+    Visit the ruins of the fort, including the Rani Mahal and the Bhim Burj, and enjoy panoramic views of Bundi. 
 
-    <strong>12:00 PM – 1:00 PM: Lunch</strong><br/><br/>
+    <strong> Lunch</strong> 
 
-    <strong>1:00 PM – 2:00 PM: Raniji ki Baori (Queen's Stepwell)</strong><br/><br/>
-    Admire the intricate carvings and architecture of this historic stepwell.<br/><br/>
+    <strong> Raniji ki Baori (Queen's Stepwell)</strong> 
+    Admire the intricate carvings and architecture of this historic stepwell. 
 
-    <strong>2:00 PM – 3:00 PM: Chaurasi Khambon ki Chhatri (84-Pillared Cenotaph)</strong><br/><br/>
-    Explore the cenotaph dedicated to Rao Raja Anirudh Singh, featuring 84 intricately carved pillars.<br/><br/>
+    <strong> Chaurasi Khambon ki Chhatri (84-Pillared Cenotaph)</strong> 
+    Explore the cenotaph dedicated to Rao Raja Anirudh Singh, featuring 84 intricately carved pillars. 
 
-    <strong>3:00 PM – 4:00 PM: Sukh Mahal</strong><br/><br/>
-    Visit the summer palace known for its scenic location by Jait Sagar Lake and its association with Rudyard Kipling's novel "Kim."<br/><br/>
+    <strong>  Sukh Mahal</strong> 
+    Visit the summer palace known for its scenic location by Jait Sagar Lake and its association with Rudyard Kipling's novel "Kim." 
 
-    <strong>4:00 PM – 5:00 PM: Chitrashala (Art Gallery)</strong><br/><br/>
+    <strong> Chitrashala (Art Gallery)</strong> 
     Admire the exquisite miniature paintings depicting courtly life and historical events.
 `,
       },
      {
         name: "Ajmer-Pushkar",
         description: `
-    <strong>Ajmer-Pushkar Itinerary</strong><br/><br/>
+    <strong>Ajmer-Pushkar Itinerary</strong><br/> 
 
-    <strong>9:00 AM – 10:00 AM: Brahma Temple</strong><br/><br/>
-    Entry Fee: Free<br/><br/>
-    Exploring Time: 1 hr<br/><br/>
-    Highlights: Unique and sacred Hindu temple.<br/><br/>
+    <strong>  Brahma Temple</strong> 
+    Entry Fee: Free 
+    Exploring Time: 1 hr 
+    Highlights: Unique and sacred Hindu temple. 
 
-    <strong>9:45 AM – 11:00 AM: Pushkar Lake & Ghats</strong><br/><br/>
-    Ritual bathing, temple bells, ghats.<br/><br/>
+    <strong>  Pushkar Lake & Ghats</strong> 
+    Ritual bathing, temple bells, ghats. 
 
-    <strong>11:00 AM – 11:45 AM: Man Mahal</strong><br/><br/>
-    Beautiful royal palace on the lake, heritage architecture and photo spot.<br/><br/>
+    <strong>  Man Mahal</strong> 
+    Beautiful royal palace on the lake, heritage architecture and photo spot. 
+    <strong>  Rangji Temple</strong> 
+    Unique temple architecture. 
 
-    <strong>12:00 PM – 1:00 PM: Rangji Temple</strong><br/><br/>
-    Unique temple architecture.<br/><br/>
+    <strong>  Lunch</strong> 
+    Suggested: Sunset Café or Raju Garden Café 
 
-    <strong>1:00 PM – 2:00 PM: Lunch</strong><br/><br/>
-    Suggested: Sunset Café or Raju Garden Café<br/><br/>
+    <strong> Savitri Mata Temple</strong> 
+    (via ropeway or hike) 
+    Hilltop temple with panoramic views. 
 
-    <strong>2:15 PM – 3:30 PM: Savitri Mata Temple</strong><br/><br/>
-    (via ropeway or hike)<br/><br/>
-    Hilltop temple with panoramic views.<br/><br/>
+    <strong>  Pushkar Market</strong> 
+    Local handicrafts, silver jewelry, Rajasthani clothes. 
 
-    <strong>3:30 PM – 5:00 PM: Pushkar Market</strong><br/><br/>
-    Local handicrafts, silver jewelry, Rajasthani clothes.<br/><br/>
+    <strong>  Camel Fair Ground & Sunset at Pushkar Dunes</strong> 
+    Scenic desert edge, photography. 
 
-    <strong>5:00 PM – 6:30 PM: Camel Fair Ground & Sunset at Pushkar Dunes</strong><br/><br/>
-    Scenic desert edge, photography.<br/><br/>
-
-    <strong>6:30 PM – 8:30 PM: Dinner & Return</strong><br/><br/>
+    <strong> Dinner & Return</strong><br/><br/>
     Dinner at Café + Return to Ajmer / Hotel Stay in Pushkar
 `,
       },
@@ -977,29 +974,29 @@ export const PACKAGES = [
       {
         name: " Bharatpur",
         description: `
-    <strong>Jaipur to Bharatpur Itinerary</strong><br/><br/>
+    <strong>Jaipur to Bharatpur Itinerary</strong> 
 
-    <strong>8:00 AM:</strong> Depart from Jaipur<br/><br/>
-    Distance: ~185 km<br/><br/>
-    Travel Time: 3.5–4 hours by car or taxi<br/><br/>
-    Route: Jaipur → Dausa → Mahwa → Bharatpur (via NH21)<br/><br/>
+    <strong> </strong> Depart from Jaipur 
+    Distance: ~185 km 
+    Travel Time: 3.5–4 hours by car or taxi 
+    Route: Jaipur → Dausa → Mahwa → Bharatpur (via NH21) 
 
-    <strong>12:00 PM:</strong> Arrive in Bharatpur + Lunch<br/><br/>
-    Restaurant Suggestions:<br/><br/>
-    - Hotel Spoonbill<br/><br/>
-    - Saras Resort<br/><br/>
-    - Hotel Sunbird<br/><br/>
+    <strong> </strong> Arrive in Bharatpur + Lunch 
+    Restaurant Suggestions: 
+    - Hotel Spoonbill 
+    - Saras Resort 
+    - Hotel Sunbird 
 
-    <strong>1:00 PM – 4:00 PM:</strong> Keoladeo National Park (Bharatpur Bird Sanctuary)<br/><br/>
-    UNESCO World Heritage Site; over 350 bird species, especially during winter<br/><br/>
+    <strong> </strong> Keoladeo National Park (Bharatpur Bird Sanctuary) 
+    UNESCO World Heritage Site; over 350 bird species, especially during winter 
 
-    <strong>4:15 PM – 5:15 PM:</strong> Lohagarh Fort<br/><br/>
-    Unconquered fort with historical significance, museums & moat<br/><br/>
+    <strong> </strong> Lohagarh Fort 
+    Unconquered fort with historical significance, museums & moat 
 
-    <strong>5:30 PM – 6:30 PM:</strong> Government Museum (inside Lohagarh premises)<br/><br/>
-    Displays Bharatpur's royal artifacts, weaponry, and local heritage<br/><br/>
+    <strong> </strong> Government Museum (inside Lohagarh premises) 
+    Displays Bharatpur's royal artifacts, weaponry, and local heritage 
 
-    <strong>6:30 PM – 7:00 PM:</strong> Local Market / Street Food Break<br/><br/>
+    <strong> </strong> Local Market / Street Food Break 
     Try kachori, jalebi, or rabri at local shops<br/>
 
 `,
@@ -1040,6 +1037,313 @@ export const PACKAGES = [
       },
     ],
   },
+//   {
+//     __id: "3",
+//     name: "Colorful Rajasthan Tour",
+//     image: getRandomIndexedImage(),
+//     days: 16,
+//     nights: 15,
+//     Overview: [
+//       `Experience the vibrant culture and colorful traditions of Rajasthan with our Colorful Rajasthan Tour Package. This tour takes you through the most iconic destinations, including Jaipur, Udaipur, Jodhpur, and Pushkar, offering a perfect blend of history, culture, and adventure.`,
+//       `Witness the grandeur of Rajasthan's forts and palaces, enjoy camel safaris in the Thar Desert, and participate in local festivals and cultural performances. This tour is ideal for travelers looking to immerse themselves in the rich heritage of Rajasthan.`,
+//     ],
+//     Highlight: [
+//       "Explore the Pink City of Jaipur",
+//       "Visit the City of Lakes, Udaipur",
+//       "Camel safari in Jaisalmer",
+//       "Cultural performances in the Thar Desert",
+//       "Visit the holy city of Pushkar",
+//       "Shop for traditional handicrafts and textiles",
+//     ],
+//     Itinerary: [
+//       {
+//         name: "Arrival in Jaipur",
+//         description:
+//           "Begin your journey in Jaipur, the Pink City. Visit the Amber Fort, City Palace, and Hawa Mahal. Enjoy a traditional Rajasthani dinner and overnight stay in Jaipur.",
+//       },
+//       {
+//         name: " Jaipur",
+//         description: `
+//         <strong>Moti Dungri Temple (08:00am - 08:30am)</strong>: Peaceful start to the day with blessing at this iconic temple.<br/><br/>
+//         <strong>Hawa Mahal (08:45am - 09:15am)</strong>: Enjoy the breeze and architecture of the Palace of Winds.<br/><br/>
+//         <strong>Jantar Mantar (09:20am - 10:00am)</strong>: Fascinating artromonical observatory with impressive instruments.<br/><br/>
+//         <strong>City Palace (10:15am - 11:00am)</strong>: Explore the royal courtyards museums galleries and traditional architecture of Jaipur.<br/><br/>
+//         <strong>Travel to Amber Fort (11:00am - 11:45am)</strong>: Stop at Jal Mahal for a panoramic view and quick lakeside photo session.<br/><br/>
+//         <strong>Amber Fort (01:00pm - 02:30pm)</strong>: Discover Seesh mahal, Diwan-e-Aam, and Diwan-e-Khas with a guided tour of the fort's history and architecture.<br/><br/>
+//         <strong>Nahargarh Fort (02:30pm - 04:00pm)</strong>: End of the day with  stunning view of Jaipur, Enjoy snacks or tea at padao Cafe inside fort. Ideal spot to relax and take in the panoramic views of the Pink City.<br/><br/>
+//         `,
+//       },
+//       {
+//         name: " Mandawa",
+//         description: `
+//         <strong>06:00am</strong>: Depart from Jaipur to Mandawa by private vehicle (3 hours).<br/><br/>
+//         <strong>11:00am</strong>: Arrive in Mandawa and check into your hotel.<br/><br/>
+//         <strong>Visit Mandawa Fort (11:30am - 12:00pm)</strong>: Explore the 18th century fort showcasing Rajput architecturea and Intricate handicrafts.<br/><br/>
+//         <strong>Explore Hanuman Prasad Gaenka Haweli(12:30pm - 01:00pm)</strong>: Admire the elaborate frescaes depicting mythoogical themes and daily life scenes.<br/><br/>
+//         <strong>Visit Marmuria Haveli (01:00pm - 01:30pm)</strong>: Notable for its paintings of leaders like Nehru and scenes of Trains and cars, reflecting a blend of traditional and modern themes.<br/><br/>
+//         <strong>Lunch at Castle Mandawa (01:30pm - 02:30pm)</strong>: <br/><br/>
+//         Cuisine: Traditional Rajasthani Buffet.<br/><br/>
+//         Cost: INR 1000 per person for non-guests.<br/><br/>
+//         Enjoy a meal in a heritage setting with views of the fort.<br/><br/>
+//         <strong>Visit Jhunjhunwala Haveli (02:30pm - 03:00pm)</strong>: Famous for its golden adornments and intricate carvings, showcasing the opulence of the era.<br/><br/>
+//         <strong>Explore Gulab Rai Ladia Haveli (03:00pm - 04:00pm)</strong>: Known for its unique and architectural style, featuring a blend of Rajput and Mughal influences.<br/><br/>
+//         <strong>Stall at Mandawa Bazaar (04:00pm - 05:00pm)</strong>: Shop for local handicrafts, textiles, and souvenirs.<br/><br/>
+//         Experience the vibrant atmosphere of the local market.<br/><br/>
+//         <strong>Departure for Bikaner (05:00pm)</strong>: Depart from Mandawa and arrive in Bikaner by private vehicle.<br/><br/>
+//         `,
+//       },
+//       {
+//         name: "Bikaner",
+//         description: `
+//         <strong>Start your day at rampuria Havelis (08:00am)</strong>: Starts through the lanes of those 15th century havelis, which are adorned with intricate frescoes and carvings.<br/><br/>
+//         <strong>Visit Junagarh Fort (09:00am - 11:00am)</strong>: Explore the 16th century fort showcasing Rajput architecture and Intricate handicrafts.<br/><br/>
+//         <strong>Explore Ganga Golden Jubilere Museum (11:00am - 12:00pm)</strong>: Admire the exquisite collection of ancient sculptures, paintings, and sculptures, showcasing the opulence of the era.<br/><br/>
+//         <strong>Bhandasar Jain Temple (12:00pm - 01:00pm)</strong>: Marble Carvings and intricate frescoes, showcasing the opulence of the era.<br/><br/>
+//         <strong>Lunch at Laxmi Niwas Palace (01:00pm - 02:00pm)</strong>: Laxmi Niwas Palace, a heritage hotel, offers a royal dining experience with Rajasthani cuisine.<br/><br/>
+//         <strong>Visit Lalgarh Palace and Ladui Museum (02:30pm - 03:30pm)</strong>: Edwardian archit.ecture and a museum showcasing the history of Bikaner.<br/><br/>
+//         <strong>National Research Centre on Camel (03:30pm - 05:00pm)</strong>: Camel Breeds, Breeding, and Research Centre.<br/><br/>
+//         <strong>End of tour and Departure</strong>: Rajasthani Cultural Dinner, Folk dances and music (optional).<br/><br/>
+//         `,
+//       },
+//        {
+//         name: "Jaisalmer",
+//         description: `
+//     <strong>Day 1:</strong><br/><br/>
+//     <strong>Morning:</strong> Arrival in Jaisalmer and enjoy a local Rajasthani meal.<br/><br/>
+//     <strong>2:20 PM - 4:00 PM:</strong> Visit Jaisalmer Fort (Sonar Quila), exploring the fort complex, temples, and viewpoints. Entrance fees are ₹200 for Indians and ₹250 for foreigners.<br/><br/>
+//     <strong>4:00 PM - 5:00 PM:</strong> Explore Maharaja's Palace inside the fort, a museum showcasing royal relics.<br/><br/>
+//     <strong>5:00 PM - 5:30 PM:</strong> Visit Nathmal Ki Haveli and take a short walk to admire the intricate architecture.<br/><br/>
+//     <strong>5:30 PM - 6:30 PM:</strong> Travel to Sam Sand Dunes (approximately 45 minutes drive from the city).<br/><br/>
+//     <strong>6:30 PM - 7:30 PM:</strong> Experience a camel safari and sunset at the Sam Sand Dunes, including photo opportunities and traditional camel rides.<br/><br/>
+//     <strong>7:30 PM - 9:30 PM:</strong> Enjoy a cultural evening at a desert camp, featuring Kalbeliya dance, folk music, and dinner (optional, but recommended). Overnight stay in the desert camp.<br><br/><br/>
+    
+//     <strong>Day 2:</strong><br/><br/>
+//     <strong>5:30 AM - 6:30 AM:</strong> Watch the sunrise over the dunes, ideal for photography and morning tea.<br/><br/>
+//     <strong>Morning:</strong> Heritage walk and departure.<br/><br/>
+//     <strong>6:30 AM - 7:30 AM:</strong> Returning from a desert camp to a hotel in the city for freshening up and breakfast.<br><br/>
+//     <strong>Patwon ki Haveli (8:00 AM - 9:00 AM):</strong> A visit to this haveli known for its intricate carvings and mirror work.<br/><br/>
+//     <strong>Salim Singh ki Haveli (9:00 AM - 10:00 AM):</strong> A haveli known for its peacock-shaped roof and 38 balconies.
+// `,
+//       },
+//       {
+//         name: "Khuri",
+//         description: `
+//     <strong>Day 1: Arrival and Khuri Exploration</strong><br/><br/>
+//     <strong>2:00 PM:</strong> Depart from Jaisalmer, with a 1.5-hour drive to Khuri, covering approximately 50 km.<br/><br/>
+//     <strong>4:00 PM:</strong> Arrive in Khuri village.<br/><br/>
+//     <strong>4:15 PM - 5:15 PM:</strong> Explore the village, including traditional mud houses, local artisan crafts, and experiencing the warm hospitality of village life.<br/><br/>
+//     <strong>5:00 PM - 7:00 PM:</strong> Enjoy a sunset camel safari at the Khuri Sand Dunes, with options for a jeep safari as well. The dunes are known for their golden sands and fewer crowds compared to Sam Sand Dunes.<br/><br/>
+//     <strong>7:30 PM - 9:30 PM:</strong> Cultural evening at the desert camp, featuring Rajasthani music, dance, and a buffet dinner. Accommodation is in desert tents with attached bathrooms.<br/><br/>
+    
+//     <strong>Day 2: Sunrise and Departure</strong><br/><br/>
+//     <strong>5:45 AM - 6:30 AM:</strong> Sunrise viewing over the dunes, followed by a morning camel ride or quiet chai on the dunes.<br/><br/>
+//     <strong>7:00 AM:</strong> Breakfast at the camp.<br/><br/>
+//     <strong>Morning (8:20 AM):</strong> Local sightseeing in Khuri (optional).<br/><br/>
+//     Possible desert wildlife spotting, including desert foxes, peacocks, and chinkaras (local guide recommended).<br/><br/>
+//     Optional visit to the Khuri Jain Temple, a serene temple in traditional style.
+// `,
+//       },
+//      {
+//         name: "Jodhpur",
+//         description: `
+//     <strong>Departure for Jodhpur (9:30 AM):</strong><br/><br/>
+//     Distance: 300 km.<br/><br/>
+//     Travel time: Approximately 6 hours.<br/><br/>
+//     Route: Khuri -> Pokaran -> Jodhpur.<br/><br/>
+//     <strong>4:00 PM - 4:30 PM:</strong> Check-in and freshen up. Recommended areas to stay include the clock tower area, Ratanada, or near Umaid Bhawan.<br/><br/>
+//     <strong>4:30 PM - 5:30 PM:</strong> Visit Toorji Ka Jhalra (stepwell), a popular social media spot, and explore local cafes.<br/><br/>
+//     <strong>5:30 PM - 6:30 PM:</strong> Explore the clock tower and Sardar market, shop for spices, textiles, and handicrafts.<br/><br/>
+//     <strong>7:00 PM - 9:00 PM:</strong> Rooftop dinner with fort view at one of the following locations:<br/><br/>
+//     - Indique at the view of Mehrangarh.<br/><br/>
+//     - Darikhana at RAAS Hotel.<br/><br/>
+//     - Sky 22 Rooftop Restaurant.<br/><br/>
+//     - On the Rocks near Circuit House lounge.<br/><br/>
+
+//     <strong>Day 2:</strong><br/><br/>
+//     <strong>8:00 AM - 1:00 PM:</strong> Visit Mandore Gardens, which include temples, cenotaphs, and lush gardens.<br/><br/>
+//     <strong>9:30 AM - 11:30 AM:</strong> Explore Mehrangarh Fort, which includes a museum and panoramic views.<br/><br/>
+//     <strong>11:15 AM - 12:15 PM:</strong> Jaswant Thada - A marble cenotaph known for its peaceful setting.<br/><br/>
+//     <strong>12:20 PM - 1:30 PM:</strong> Lunch break.<br/><br/>
+
+//     <strong>Afternoon:</strong><br/><br/>
+//     <strong>1:45 PM - 3:00 PM:</strong> Umaid Bhawan Palace Museum - A museum showcasing vintage cars and palace history.<br/><br/>
+//     <strong>3:15 PM - 4:15 PM:</strong> Rao Jodha Desert Rock Park - Features nature trails, desert ecology, and a fort backdrop.<br/><br/>
+
+//     <strong>Late Afternoon/Evening:</strong><br/><br/>
+//     <strong>4:30 PM - 6:00 PM:</strong> Leisure time for shopping. A visit to Sardar Market is suggested for last-minute souvenirs, spices, and textiles.<br/><br/>
+//     <strong>6:00 PM - 7:00 PM:</strong> Sunset dinner.
+// `,
+//       },
+//       {
+//         name: "Ranakpur",
+//         description: `Ranakpur is famous for the stunning white marble Jain Temple dedicated to Tirthankara Adinatha, set amidst green hills.`,
+//       },
+//       {
+//         name: "Udaipur",
+//         description: `
+//     <strong>Udaipur Itinerary</strong><br/><br/>
+    
+//     <strong>1. City Palace & Museum (9:30 AM – 5:30 PM):</strong><br/><br/>
+//     Largest palace in Rajasthan, stunning views of Lake Pichola, museums, and royal courtyards.<br/><br/>
+    
+//     <strong>2. Boat Ride to Jag Mandir via Lake Pichola (from City Palace):</strong><br/><br/>
+//     Scenic lake views, visit Jag Mandir (island palace).<br/><br/>
+    
+//     <strong>3. Lunch Break (1:00 PM – 2:00 PM):</strong><br/><br/>
+//     Suggestion: Try Krishna Dal Bati Restro or Garden Hotel Restaurant (₹200–300/person).<br/><br/>
+    
+//     <strong>4. Saheliyon Ki Bari:</strong><br/><br/>
+//     Beautiful gardens, fountains, lotus pools, marble pavilions.<br/><br/>
+    
+//     <strong>5. Fateh Sagar Lake:</strong><br/><br/>
+//     Peaceful atmosphere, visit Nehru Park on the lake.<br/><br/>
+    
+//     <strong>6. Vintage & Classic Car Museum:</strong><br/><br/>
+//     Royal vintage car collection of Maharajas.<br/><br/>
+    
+//     <strong>7. Bagore Ki Haveli Museum & Cultural Show:</strong><br/><br/>
+//     Rajasthani folk dances, puppetry, and local music in an authentic Haveli setting.
+// `,
+//       },
+//       {
+//         name: "Kumbargarh",
+//         description: `Kumbhalgarh is known for Kumbhalgarh Fort, with the second-longest wall in the world, and it is surrounded by scenic wildlife and hills.`,
+//       },
+//       {
+//         name: "Bundi",
+//         description: `
+//     <strong>Arrival in Bundi: 6:30 PM</strong><br/><br/>
+//     <strong>Accommodation:</strong> Check into your hotel.<br/><br/>
+//     <strong>Evening Activity:</strong> Stroll through the local markets, enjoy a traditional Rajasthani dinner, and relax to prepare for the next day's sightseeing.<br/><br/>
+
+//     <strong>🏯 Day 2:</strong><br/><br/>
+//     <strong>9:00 AM – 10:30 AM: Bundi Palace (Garh Palace)</strong><br/><br/>
+//     Explore the Chitrashala (art gallery), Hathi Pol (elephant gate), and the Chahar Bagh (terraced garden).<br/><br/>
+
+//     <strong>10:30 AM – 12:00 PM: Taragarh Fort</strong><br/><br/>
+//     Visit the ruins of the fort, including the Rani Mahal and the Bhim Burj, and enjoy panoramic views of Bundi.<br/><br/>
+
+//     <strong>12:00 PM – 1:00 PM: Lunch</strong><br/><br/>
+
+//     <strong>1:00 PM – 2:00 PM: Raniji ki Baori (Queen's Stepwell)</strong><br/><br/>
+//     Admire the intricate carvings and architecture of this historic stepwell.<br/><br/>
+
+//     <strong>2:00 PM – 3:00 PM: Chaurasi Khambon ki Chhatri (84-Pillared Cenotaph)</strong><br/><br/>
+//     Explore the cenotaph dedicated to Rao Raja Anirudh Singh, featuring 84 intricately carved pillars.<br/><br/>
+
+//     <strong>3:00 PM – 4:00 PM: Sukh Mahal</strong><br/><br/>
+//     Visit the summer palace known for its scenic location by Jait Sagar Lake and its association with Rudyard Kipling's novel "Kim."<br/><br/>
+
+//     <strong>4:00 PM – 5:00 PM: Chitrashala (Art Gallery)</strong><br/><br/>
+//     Admire the exquisite miniature paintings depicting courtly life and historical events.
+// `,
+//       },
+//      {
+//         name: "Ajmer-Pushkar",
+//         description: `
+//     <strong>Ajmer-Pushkar Itinerary</strong><br/><br/>
+
+//     <strong>9:00 AM – 10:00 AM: Brahma Temple</strong><br/><br/>
+//     Entry Fee: Free<br/><br/>
+//     Exploring Time: 1 hr<br/><br/>
+//     Highlights: Unique and sacred Hindu temple.<br/><br/>
+
+//     <strong>9:45 AM – 11:00 AM: Pushkar Lake & Ghats</strong><br/><br/>
+//     Ritual bathing, temple bells, ghats.<br/><br/>
+
+//     <strong>11:00 AM – 11:45 AM: Man Mahal</strong><br/><br/>
+//     Beautiful royal palace on the lake, heritage architecture and photo spot.<br/><br/>
+
+//     <strong>12:00 PM – 1:00 PM: Rangji Temple</strong><br/><br/>
+//     Unique temple architecture.<br/><br/>
+
+//     <strong>1:00 PM – 2:00 PM: Lunch</strong><br/><br/>
+//     Suggested: Sunset Café or Raju Garden Café<br/><br/>
+
+//     <strong>2:15 PM – 3:30 PM: Savitri Mata Temple</strong><br/><br/>
+//     (via ropeway or hike)<br/><br/>
+//     Hilltop temple with panoramic views.<br/><br/>
+
+//     <strong>3:30 PM – 5:00 PM: Pushkar Market</strong><br/><br/>
+//     Local handicrafts, silver jewelry, Rajasthani clothes.<br/><br/>
+
+//     <strong>5:00 PM – 6:30 PM: Camel Fair Ground & Sunset at Pushkar Dunes</strong><br/><br/>
+//     Scenic desert edge, photography.<br/><br/>
+
+//     <strong>6:30 PM – 8:30 PM: Dinner & Return</strong><br/><br/>
+//     Dinner at Café + Return to Ajmer / Hotel Stay in Pushkar
+// `,
+//       },
+//       {
+//         name: " Ranthambore",
+//         description: `Ranthambore is a renowned national park famous for tiger safaris, Ranthambore Fort, and picturesque lakes and ruins.`,
+//       },
+//       {
+//         name: " Bharatpur",
+//         description: `
+//     <strong>Jaipur to Bharatpur Itinerary</strong><br/><br/>
+
+//     <strong>8:00 AM:</strong> Depart from Jaipur<br/><br/>
+//     Distance: ~185 km<br/><br/>
+//     Travel Time: 3.5–4 hours by car or taxi<br/><br/>
+//     Route: Jaipur → Dausa → Mahwa → Bharatpur (via NH21)<br/><br/>
+
+//     <strong>12:00 PM:</strong> Arrive in Bharatpur + Lunch<br/><br/>
+//     Restaurant Suggestions:<br/><br/>
+//     - Hotel Spoonbill<br/><br/>
+//     - Saras Resort<br/><br/>
+//     - Hotel Sunbird<br/><br/>
+
+//     <strong>1:00 PM – 4:00 PM:</strong> Keoladeo National Park (Bharatpur Bird Sanctuary)<br/><br/>
+//     UNESCO World Heritage Site; over 350 bird species, especially during winter<br/><br/>
+
+//     <strong>4:15 PM – 5:15 PM:</strong> Lohagarh Fort<br/><br/>
+//     Unconquered fort with historical significance, museums & moat<br/><br/>
+
+//     <strong>5:30 PM – 6:30 PM:</strong> Government Museum (inside Lohagarh premises)<br/><br/>
+//     Displays Bharatpur's royal artifacts, weaponry, and local heritage<br/><br/>
+
+//     <strong>6:30 PM – 7:00 PM:</strong> Local Market / Street Food Break<br/><br/>
+//     Try kachori, jalebi, or rabri at local shops<br/>
+
+// `,
+//       },
+//       {
+//         name: "Departure",
+//         description:
+//           "Conclude your Colorful Rajasthan Tour with a transfer to Jaipur or Delhi for your onward journey.",
+//       },
+//     ],
+//     Inclusion: [
+//       "Luxury air-conditioned transportation",
+//       "Daily buffet breakfast",
+//       "Accommodation in heritage hotels",
+//       "Camel safari in Jaisalmer",
+//       "Boat ride in Udaipur",
+//       "English-speaking tour guide",
+//       "All applicable taxes and service charges",
+//     ],
+//     Exclusion: [
+//       "Meals not mentioned in the itinerary",
+//       "Personal expenses such as tips and laundry",
+//       "Entrance fees to monuments",
+//       "International and domestic airfare",
+//       "Travel insurance",
+//     ],
+//     Price: 2500,
+//     FAQs: [
+//       {
+//         name: "What is included in the package?",
+//         description:
+//           "The package includes transportation, accommodation, daily breakfast, and guided tours.",
+//       },
+//       {
+//         name: "Can I customize the itinerary?",
+//         description:
+//           "Yes, the itinerary can be customized to suit your preferences. Please contact us for more details.",
+//       },
+//     ],
+//   },
   // {
   //   __id: "3",
   //   name: "Rajasthan Culture Tour",
