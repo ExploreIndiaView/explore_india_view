@@ -1,29 +1,28 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import { Label } from "../ui/label";
-import { CalendarIcon, Loader2, MinusCircle, PlusCircle } from "lucide-react";
-import { Button } from "../ui/button";
+import { Calendar } from "@/components/ui/calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { Calendar } from "@/components/ui/calendar";
-import { cn } from "@/lib/utils";
-import { useAuthStore } from "@/store/auth.store";
-import { useRouter } from "next/navigation";
-import { toast } from "sonner";
-import axios from "axios";
-import { API_URL } from "@/services/API";
-import { Checkbox } from "../ui/checkbox";
-import InquirySection from "./InquirySection";
-import { RadioGroup, RadioGroupItem } from "../ui/radio-group";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { cn } from "@/lib/utils";
+import { API_URL } from "@/services/API";
+import { useAuthStore } from "@/store/auth.store";
+import axios from "axios";
+import { CalendarIcon, Loader2, MinusCircle, PlusCircle } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { toast } from "sonner";
+import { Button } from "../ui/button";
+import { Checkbox } from "../ui/checkbox";
+import { Label } from "../ui/label";
+import InquirySection from "./InquirySection";
 import ScratchCard from "./ScratchCard";
 
 interface Props {
@@ -107,6 +106,13 @@ function BookingCard({ props }: { props: Props }) {
     }
   }, [input.PackageDays, input.people, input.hotel]);
 
+  const handleSelectHotel = (value: string) => {
+    if (input.hotel === value) {
+      setInput({ ...input, hotel: "" }); // Unselect if already selected
+    } else {
+      setInput({ ...input, hotel: value });
+    }
+  };
   const handleBooking = async () => {
     try {
       setloading(true);
@@ -178,7 +184,10 @@ function BookingCard({ props }: { props: Props }) {
           }
         );
         if (response.status === 400) throw new Error(response.data.message);
-        toast.success(response.data.message || "Booking created successfully without payment");
+        toast.success(
+          response.data.message ||
+            "Booking created successfully without payment"
+        );
         router.push("/bookings");
       }
     } catch (error: any) {
@@ -345,57 +354,58 @@ function BookingCard({ props }: { props: Props }) {
                 Hotel
               </Label>
               <div className="flex items-center gap-5 justify-center">
-                <RadioGroup
-                  defaultValue={input.hotel}
-                  className="flex flex-col md:flex-row flex-wrap"
-                  value={input.hotel}
-                  onValueChange={(value) =>
-                    setInput({ ...input, hotel: value })
-                  }
-                >
-                  <div className="flex items-center space-x-2 group">
-                    <RadioGroupItem value="3 Star" id="r2" className="size-5" />
-                    <Label htmlFor="r2">
-                      <TooltipProvider>
-                        <Tooltip>
-                          <TooltipTrigger asChild>
-                            <Button variant={"ghost"} size={"sm"}>
-                              3 Star Hotel
-                            </Button>
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p>
-                              ₹{input.people * input.PackageDays * 800 * 0.8}{" "}
-                              for {input.people} people for {input.PackageDays}{" "}
-                              days
-                            </p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="5 Star" id="r3" className="size-5" />
-                    <Label htmlFor="r3">
-                      <TooltipProvider>
-                        <Tooltip>
-                          <TooltipTrigger asChild>
-                            <Button variant="ghost" size={"sm"}>
-                              5 star Hotel
-                            </Button>
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p>
-                              ₹{input.people * input.PackageDays * 1000 * 0.8}{" "}
-                              for {input.people} people for {input.PackageDays}{" "}
-                              days
-                            </p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </Label>
-                  </div>
-                </RadioGroup>
+                <div className="flex items-center space-x-2 group">
+                  <Label htmlFor="r2">
+                    <TooltipProvider>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button
+                            onClick={() => handleSelectHotel("3 Star")}
+                            variant={`${
+                              input.hotel === "3 Star" ? "default" : "ghost"
+                            }`}
+                            size={"sm"}
+                              className={`${input.hotel === "3 Star" && "bg-green-600"} hover:bg-green-400 hover:text-white cursor-pointer`}
+                            >
+                            3 Star Hotel
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>
+                            ₹{input.people * input.PackageDays * 800 * 0.8} for{" "}
+                            {input.people} people for {input.PackageDays} days
+                          </p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Label htmlFor="r3">
+                    <TooltipProvider>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button
+                            onClick={() => handleSelectHotel("5 Star")}
+                            variant={`${
+                              input.hotel === "5 Star" ? "default" : "ghost"
+                            }`}
+                            size={"sm"}
+                            className={`${input.hotel === "5 Star" && "bg-green-600"} hover:bg-green-400 hover:text-white cursor-pointer`}
+                          >
+                            5 star Hotel
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>
+                            ₹{input.people * input.PackageDays * 1000 * 0.8} for{" "}
+                            {input.people} people for {input.PackageDays} days
+                          </p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Label>
+                </div>
               </div>
             </div>
 
