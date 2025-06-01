@@ -353,7 +353,7 @@ function BookingCard({ props }: { props: Props }) {
               <Label className="text-xl font-bold sm:justify-center">
                 Hotel
               </Label>
-              <div className="flex items-center gap-5 justify-center">
+              <div className="flex items-center gap-5 justify-center max-sm:flex-col md:flex-row lg:flex-col xl:flex-row">
                 <div className="flex items-center space-x-2 group">
                   <Label htmlFor="r2">
                     <TooltipProvider>
