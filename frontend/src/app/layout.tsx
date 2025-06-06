@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="google-site-verification" content="Bl7pcaHwWNLlXCpWvWZhpmLP9NIKlFLNBvCxNYNxWSA" />
-      <meta name="google-adsense-account" content="ca-pub-8518455156221027">
+      <meta name="google-adsense-account" content="ca-pub-8518455156221027"/>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-[2000px] mx-auto`}
       >
