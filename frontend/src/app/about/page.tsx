@@ -106,6 +106,10 @@ function About() {
         <h1 className="text-lg md:text-xl mt-5 font-bold font-serif text-center">
           WhatsApp at +91 8426090454 , +91 9588041628 , +91 8209598333
         </h1>
+        <p>
+  To request deletion of your account or data, email us at <a href="mailto:info@exploreindiaview.com">info@exploreindiaview.com</a> with your registered email ID.
+</p>
+
       </div>
     </>
   );
