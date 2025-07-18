@@ -26,6 +26,7 @@ function Disclaimer() {
       <p className="text-gray-700 font-medium">
         By using ExploreIndiaView, you agree to our Terms &amp; Conditions, Privacy Policy, and the above disclaimers.
       </p>
+      
     </div>
   );
 }
